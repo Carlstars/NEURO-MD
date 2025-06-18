@@ -1,5 +1,5 @@
 {
-  "name":"NEURO-MD",
+  "name":"cally-stars",
   "description":"An Advanced Whatsapp bot 🚀 built for fast automation, media tool, and smooth group management developed by Allamano",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/grlqyj.png",
@@ -27,13 +27,13 @@
     "AUTO_READ":
     {
       "description":"Your contact  will be read messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false   
       },
   "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "ANTICALL":
@@ -57,7 +57,7 @@
     ,
     "BOT_NAME" : {
        
-      "description":"put A name for your bot",
+      "description":"cally-stars",
       "value":"NEURO-MD",
       "required":false
 
@@ -87,7 +87,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"ALPHA;;;H4sIAAAAAAAAA61V266iSBT9lUm9alqKi4DJSQYQFBX0qHibzEMJhZZcLQoRO37LPM0nzH/NJ0zwnDN9ku7pPpM0T0VVsfdae6+1+QzSjBR4jGvQ+wxySi6I4WbJ6hyDHtDLMMQUtEGAGAI94GvJaihCwZ2vmHtVqU/qhKXz/ubYrZQMLjvT42hp2MdLIj6Bexvk5T4m/vcCrgVsOV5gXFrraMkPbJIQRNi2hcozIp3cnlRdpGhHhXBP4N5ERISS9GDmR5xgiuIxrmeI0I/BH9ukPMHAb+mu3dGs2eAYK9FimWxKY+V6jja397J1E1WWOh+DH09X0TN1Eh+LTFF2Z20ae+7N6fCyaZsLdwFPmnI+H/b8ZvsCvyCHFAd2gFNGWP3hurcmrSyl+fR2Q7djsclmI93r19g0r63bhqeyIdym5SQd9s3njwF3WvNhPrhOLBbldBddb+dy4S4jrhWhfqsbsdDYSmofX/dp9R74jL5pJfo/dd+OxNFq61rifqJz++KojhOscFZ4deVWOF7L16Sc8Luhxrjtx+B3NUud5GVr3JmdUI0uYxM6p8D0YsdL+DW5nmZlPUkccoCHL/ARK+n3UNpQvGaBLGZ1la9l2ajOeja+qfURkrWYa3urXi1lBakllc+rTedZPM0vdeipHV0jisvtXSlxVDcJh97sVnDj6c49VLr29GAU4doOQA/e24DiAykYRYxkabMndNsABZcF9ilmj+qCG5udEyMdeu4WnewCjS7XZXwW6ri/zATheOyLG6eseRhbz0+gDXKa+bgocDAkBcto7eCiQAdcgN5vj0Y1nClOMoZHJAA9wEuiLEoQSlBRfi0+VUfECpTnn1LMQBuENEscDHqMlrgNHh+YlsoJsCtKpsaLXVHQZIVT+6pgSaIGZaXfMExeki5JgguGkhz0oCxxvMjJKndv/xwcAqeaMoSqqSiwK2iSxZuaCaGmw76l8Kr+Axzqz8LBQ5OHumXwoqiKUDOhBnnFkmUR8lCSVPG7OBQo3X9vgxRf2YudHiKAbRASWjAvLfM4Q8Gb194Oke9nZcoWdeobzQJT0Hu3jRkj6aFomJUpov6RXLDR8AC9EMUF/ld3mOLgjcvrLDWyoLGD0HXNobqdgQZ7E+ir2vR4+HV54sc1qHZ5CFVekDiJ56TmZnPQBilqgoEhRpTtKUYRpr/8/ceffzUlegXf5AowQyQuQA8YIyMWZuLQtAd+XdiDgWYfNOOggS9k37z8Yhbrur/Q5zJKNSlIYw+TnGh4ERqdZFxyXTIa72PsVdPlDJpP3wgCeoBGpmvXenUqxetgfdh2t5uhM0rXmzrcLEaTiBtnz1I84Iejll8sllw6JiP5MudHcb3fOXKIhcu4peTeRSyv/nJcGdoqMRrjt0GAL8TH75NVXJTohLd4LfC2m+coTcTOyCyKFq9hcVfS82AqerewGns3CUP9dr0VeNidoYW4c2Ynu9JqC478Q0I3KL5UE33qVPu3KfOYcvHr34W8DgDyeA0Jfgzr1378sK0vwBv1cff2uxiv4/8/Rqg+99dyl5vko2q62UmrYXbeHoZRWl0kQtk0I4tE2sROP7qpc3BvbJDHiIUZTUAPoDSg2UM0NCsbOdtpmH0nmaHbtvHKPEYF075Y5BvuV/iXWzOa5UNUHBvFz9WdoDZ6r7U8XzDE3hwHtOYxrhW4/wOupMx3IwkAAA==",   
       "value":"",
       "required":true
       
@@ -95,14 +95,14 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "cally-stars",
     "required": false,
     "value": "NEURO"
   },
     "NUUERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of Kenya '254')",
+    "desc": "254745115188",
     "required":true,
     "value": ""
   },
@@ -120,7 +120,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 online. 2 typing a message. 3 recording . Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"recording",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
